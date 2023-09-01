@@ -5,4 +5,4 @@ For Debian Users:
 
 sudo apt install python3-pip
 
-pip install flask
+sudo pip3 install flask
