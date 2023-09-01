@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Resume</title>
+        <style>
+            span {
+                color: blueviolet;
+                font-weight: bold;
+            }
+            .project li {
+                list-style: disc;
+            }
+        </style>
+    </head>
+    <body style="text-align: left;">
+        {% extends "template.html" %}
+        {% block content %}
+
+        <h1> My Resume: </h1>
+        
+        <p>3rd year Computer Science student interested to work in the DevOps domain. Technologies I have used include DevOps, Docker, Kubernetes, Linux and Jenkins. I also possess strong interpersonal and leadership skills; and love to work in collaborative environments.</p>
+
+        <h2>Technical Skills:</h2>
+        <p><span>Operating System:</span> Linux RHEL, CentOS, Ubuntu</p>
+        <p><span>Scripting Language:</span> Python, Bash</p>
+        <p><span>Cloud Provider:</span> AWS</p>
+        <p><span>Pipeline:</span> Jenkins</p>
+        <p><span>Containerization Tool:</span> Docker</p>
+        <p><span>Container Orchestration:</span> Kubernetes</p>
+        <p><span>Monitoring Tools:</span> Prometheus, Grafana</p>
+
+        <h2> Projects: </h2>
+        <ul class="project">
+            <li>Created an end-to-end DevOps pipeline with AWS Jenkins, Ubuntu, Docker and Kubernetes to deploy a website to EC2 instance upon making changes to GitHub repository.</li>
+            <li>Deployed Flask app on Google Kubernetes engine in Different Cluster Environments. Automated Docker build and Deploy process. Pushed image to artifact registry. Setup External Load balancer in Kubernetes Deployment file.</li>
+        </ul>
+
+        <h2>Education:</h2>
+        <p><span>Education:</span> Chikitsak Samuha's Sir Sitaram and Lady Shantabai College of Arts & Science</p>
+
+        {% endblock %}
+    </body>
+</html>

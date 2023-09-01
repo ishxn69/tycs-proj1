@@ -1,0 +1,43 @@
+ol, ul {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #18dff1;
+    justify-content: space-between;
+    padding: 0 10% 0 10%;
+}
+
+.container .menu {
+    display: flex;
+    padding-left: 0px;
+}
+
+.container .menu li {
+    margin-right: 20px;
+}
+
+.container .menu a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+.container .menu a:hover {
+    background-color: rgb(13, 13, 90);
+    color: white;
+    border-radius: 50px;
+}
+
+.logo {
+    background-color: rgb(13, 13, 90);
+    color: white;
+    text-align: left;
+    padding: 0px 30px 0px 30px;
+    border-radius: 50px;
+}
+
+body{
+    text-align: center;
+}
