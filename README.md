@@ -8,4 +8,5 @@ sudo apt install python3-pip
 sudo pip3 install flask
 
 Commit this code to see an automated deployment of a website reflecting changes made.
-~Ishan Gadekar
+
+~Ishan Sameer Gadekar
